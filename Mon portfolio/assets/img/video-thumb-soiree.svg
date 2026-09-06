@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960">
+  <defs>
+    <linearGradient id="vidPartyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7928CA"/>
+      <stop offset="50%" stop-color="#FF0080"/>
+      <stop offset="100%" stop-color="#0E051F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="540" height="960" fill="url(#vidPartyBg)"/>
+
+  <!-- Éclats stroboscopiques et lasers -->
+  <line x1="0" y1="100" x2="540" y2="400" stroke="#00F2FE" stroke-width="4" opacity="0.6"/>
+  <line x1="540" y1="80" x2="0" y2="450" stroke="#FFD600" stroke-width="3" opacity="0.6"/>
+  <circle cx="270" cy="400" r="180" fill="#FF0080" opacity="0.35"/>
+
+  <!-- Silhouette foule en transe & mains levées -->
+  <path d="M0 720 Q 50 680 100 700 Q 150 650 200 690 Q 250 640 300 680 Q 350 660 400 700 Q 450 670 540 710 L540 960 L0 960 Z" fill="#0A0417"/>
+  <!-- Mains levées en silhouette -->
+  <path d="M120 720 L135 620 L150 720 Z" fill="#0A0417"/>
+  <path d="M260 700 L275 590 L290 700 Z" fill="#0A0417"/>
+  <path d="M410 710 L425 610 L440 710 Z" fill="#0A0417"/>
+
+  <!-- Titre Teaser -->
+  <g transform="translate(270, 240)">
+    <rect x="-170" y="-35" width="340" height="70" rx="35" fill="rgba(0,0,0,0.6)" stroke="#00F2FE" stroke-width="2"/>
+    <text x="0" y="8" font-family="'Outfit', sans-serif" font-weight="900" font-size="24" fill="#00F2FE" text-anchor="middle">AFTERMOVIE OFFICIEL 🔥</text>
+  </g>
+
+  <!-- Interface Reel -->
+  <g transform="translate(480, 520)">
+    <circle cx="0" cy="0" r="22" fill="rgba(0,0,0,0.5)"/>
+    <path d="M0 8 L-6 2 C-9 -1 -9 -6 -5 -9 C-2 -11 0 -8 0 -8 C0 -8 2 -11 5 -9 C9 -6 9 -1 6 2 Z" fill="#FF4757" transform="scale(1.4) translate(-0, 2)"/>
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">52.4K</text>
+
+    <circle cx="0" cy="75" r="22" fill="rgba(0,0,0,0.5)"/>
+    <circle cx="0" cy="75" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="0" y="107" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">3.2K</text>
+
+    <circle cx="0" cy="150" r="22" fill="rgba(0,0,0,0.5)"/>
+    <path d="M-6 150 L6 142 L6 158 Z" fill="#FFFFFF"/>
+    <text x="0" y="182" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">8.9K</text>
+  </g>
+
+  <!-- Bas du Reel -->
+  <g transform="translate(30, 810)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#FFFFFF">@soiree_espacejeune</text>
+    <text x="0" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="14" fill="#FFFFFF">L'énergie était incroyable ! Revivez les meilleurs moments 🎧⚡</text>
+    <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#00F2FE">🎵 Mix exclusif DJ Flex — Live Set</text>
+  </g>
+</svg>

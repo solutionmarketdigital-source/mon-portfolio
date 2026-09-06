@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="menuBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5EE"/>
+      <stop offset="100%" stop-color="#EFE6D8"/>
+    </linearGradient>
+    <linearGradient id="warmAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E85A37"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#menuBg)"/>
+
+  <!-- Cadre menu moderne style ardoise & bois -->
+  <rect x="50" y="50" width="700" height="900" rx="24" fill="#FFFFFF" stroke="#E2D6C5" stroke-width="2"/>
+
+  <!-- Badge "Menu de la semaine" -->
+  <rect x="250" y="30" width="300" height="46" rx="23" fill="url(#warmAmber)"/>
+  <text x="400" y="60" font-family="'Outfit', sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">MENU DE LA SEMAINE</text>
+
+  <!-- En-tête -->
+  <text x="400" y="140" font-family="'Outfit', sans-serif" font-weight="900" font-size="36" fill="#1F1B18" text-anchor="middle">SÉNAN DÉLICES</text>
+  <text x="400" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#645C55" text-anchor="middle">Des produits frais cuisinés chaque matin avec amour</text>
+
+  <!-- Section 1 : Entrées -->
+  <g transform="translate(100, 230)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#E85A37">ENTRÉES GOURMANDES</text>
+    <line x1="0" y1="12" x2="600" y2="12" stroke="#EFE6D8" stroke-width="2"/>
+
+    <text x="0" y="45" font-family="'Outfit', sans-serif" font-weight="700" font-size="18" fill="#1F1B18">Pastels croustillants au thon mariné (x5)</text>
+    <text x="600" y="45" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#E85A37" text-anchor="end">4 000 FCFA</text>
+    <text x="0" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#645C55">Accompagnés d'une sauce tomate aux oignons caramélisés</text>
+
+    <text x="0" y="110" font-family="'Outfit', sans-serif" font-weight="700" font-size="18" fill="#1F1B18">Salade fraîcheur d'avocat &amp; crevettes sautées</text>
+    <text x="600" y="110" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#E85A37" text-anchor="end">5 500 FCFA</text>
+    <text x="0" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#645C55">Vinaigrette passion maison et herbes aromatiques</text>
+  </g>
+
+  <!-- Section 2 : Plats de résistance -->
+  <g transform="translate(100, 440)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#E85A37">PLATS SIGNATURES</text>
+    <line x1="0" y1="12" x2="600" y2="12" stroke="#EFE6D8" stroke-width="2"/>
+
+    <text x="0" y="45" font-family="'Outfit', sans-serif" font-weight="700" font-size="18" fill="#1F1B18">Poulet braisé façon Sénan &amp; Alloco fondant</text>
+    <text x="600" y="45" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#E85A37" text-anchor="end">7 500 FCFA</text>
+    <text x="0" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#645C55">Mariné aux épices locales, braisé au feu de bois, sauce verte</text>
+
+    <text x="0" y="110" font-family="'Outfit', sans-serif" font-weight="700" font-size="18" fill="#1F1B18">Filet de Capitaine grillé &amp; Attieke premium</text>
+    <text x="600" y="110" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#E85A37" text-anchor="end">8 500 FCFA</text>
+    <text x="0" y="135" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#645C55">Légumes sautés et sauce graine onctueuse en réduction</text>
+
+    <text x="0" y="175" font-family="'Outfit', sans-serif" font-weight="700" font-size="18" fill="#1F1B18">Riz Jollof royal aux gambas &amp; suprême de dinde</text>
+    <text x="600" y="175" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#E85A37" text-anchor="end">8 000 FCFA</text>
+    <text x="0" y="200" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#645C55">Riz parfumé mijoté selon la tradition d'Afrique de l'Ouest</text>
+  </g>
+
+  <!-- Boîte de commande rapide en bas -->
+  <g transform="translate(100, 750)">
+    <rect width="600" height="130" rx="18" fill="#FAF5EE" stroke="#E85A37" stroke-dasharray="6 6"/>
+    <text x="300" y="45" font-family="'Outfit', sans-serif" font-weight="800" font-size="20" fill="#1F1B18" text-anchor="middle">Livraison Express sur Cotonou &amp; Environs</text>
+    <text x="300" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#645C55" text-anchor="middle">Commandes ouvertes du Lundi au Dimanche jusqu'à 22h</text>
+    <text x="300" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#10B981" text-anchor="middle">WhatsApp direct : +229 97 00 00 00</text>
+  </g>
+</svg>

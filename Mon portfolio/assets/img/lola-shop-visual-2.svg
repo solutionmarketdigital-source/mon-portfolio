@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="lolaCarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B18"/>
+      <stop offset="100%" stop-color="#2D2622"/>
+    </linearGradient>
+    <linearGradient id="lolaCarAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#E85A37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond carrousel Instagram haut de gamme -->
+  <rect width="800" height="1000" fill="url(#lolaCarBg)"/>
+
+  <rect x="40" y="40" width="720" height="920" rx="28" fill="#25211E" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Badge Carrousel / Swipe -->
+  <g transform="translate(80, 80)">
+    <rect width="180" height="38" rx="19" fill="rgba(255,255,255,0.1)"/>
+    <text x="90" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#FFA588" text-anchor="middle">CARROUSEL CONSEIL</text>
+  </g>
+  <text x="700" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" fill="rgba(255,255,255,0.4)" text-anchor="end">01 / 05</text>
+
+  <!-- Titre Principal Accrocheur -->
+  <text x="80" y="210" font-family="'Outfit', sans-serif" font-weight="900" font-size="44" fill="#FFFFFF">3 ERREURS DE STYLE</text>
+  <text x="80" y="260" font-family="'Outfit', sans-serif" font-weight="800" font-size="34" fill="url(#lolaCarAccent)">À ÉVITER CETTE SAISON</text>
+
+  <!-- Illustration 3 Blocs Conseils -->
+  <!-- Bloc 1 -->
+  <g transform="translate(80, 320)">
+    <rect width="640" height="150" rx="16" fill="#302B27" stroke="rgba(245,166,35,0.2)" stroke-width="1.5"/>
+    <circle cx="60" cy="75" r="30" fill="url(#lolaCarAccent)"/>
+    <text x="60" y="85" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="120" y="65" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Négliger les proportions de sa tenue</text>
+    <text x="120" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="16" fill="#D1C7BF">Toujours équilibrer une pièce ample avec une coupe plus ajustée.</text>
+  </g>
+
+  <!-- Bloc 2 -->
+  <g transform="translate(80, 500)">
+    <rect width="640" height="150" rx="16" fill="#302B27" stroke="rgba(245,166,35,0.2)" stroke-width="1.5"/>
+    <circle cx="60" cy="75" r="30" fill="url(#lolaCarAccent)"/>
+    <text x="60" y="85" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="120" y="65" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Ignorer l'impact des accessoires</text>
+    <text x="120" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="16" fill="#D1C7BF">Un sac structuré transforme instantanément une tenue basique.</text>
+  </g>
+
+  <!-- Bloc 3 -->
+  <g transform="translate(80, 680)">
+    <rect width="640" height="150" rx="16" fill="#302B27" stroke="rgba(245,166,35,0.2)" stroke-width="1.5"/>
+    <circle cx="60" cy="75" r="30" fill="url(#lolaCarAccent)"/>
+    <text x="60" y="85" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="120" y="65" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#FFFFFF">Accumuler plus de 3 couleurs vives</text>
+    <text x="120" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="16" fill="#D1C7BF">Adoptez la règle des 3 tons pour une harmonie parfaite.</text>
+  </g>
+
+  <!-- Swipe indicator footer -->
+  <g transform="translate(400, 895)">
+    <circle cx="-30" cy="0" r="18" fill="url(#lolaCarAccent)"/>
+    <path d="M-33 -6 L-27 0 L-33 6" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="10" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#FFFFFF">Glissez pour voir nos inspirations &gt;</text>
+  </g>
+</svg>

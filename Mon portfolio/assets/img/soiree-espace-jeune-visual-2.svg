@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="ticketBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140D26"/>
+      <stop offset="100%" stop-color="#24113E"/>
+    </linearGradient>
+    <linearGradient id="ticketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#FF758C"/>
+    </linearGradient>
+    <linearGradient id="goldPass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#FFD166"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#ticketBg)"/>
+
+  <!-- Badge Compte à Rebours -->
+  <g transform="translate(400, 90)">
+    <rect x="-190" y="0" width="380" height="48" rx="24" fill="rgba(255,255,255,0.08)" stroke="#FF007F" stroke-width="1.5"/>
+    <text x="0" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="15" fill="#FF758C" text-anchor="middle">⚡ BILLETTERIE OFFICIELLE OUVERTE</text>
+  </g>
+
+  <text x="400" y="210" font-family="'Outfit', sans-serif" font-weight="900" font-size="40" fill="#FFFFFF" text-anchor="middle">CHOISISSEZ VOTRE PASS</text>
+  <text x="400" y="245" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#BFAACF" text-anchor="middle">Les places sont limitées pour garantir la meilleure expérience</text>
+
+  <!-- Ticket Standard -->
+  <g transform="translate(100, 300)">
+    <rect width="600" height="175" rx="20" fill="#2C1B4D" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+    <rect x="0" y="0" width="16" height="175" rx="8" fill="#4FACFE"/>
+    <text x="45" y="55" font-family="'Outfit', sans-serif" font-weight="800" font-size="24" fill="#FFFFFF">PASS STANDARD</text>
+    <text x="45" y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#D1C7BF">• Accès à la grande salle &amp; Dancefloor</text>
+    <text x="45" y="118" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#D1C7BF">• 1 Consommation offerte au bar</text>
+    <text x="45" y="148" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#D1C7BF">• Cadeau goodies à l'entrée</text>
+
+    <text x="560" y="85" font-family="'Outfit', sans-serif" font-weight="900" font-size="32" fill="#4FACFE" text-anchor="end">5 000</text>
+    <text x="560" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#BFAACF" text-anchor="end">FCFA / pers.</text>
+  </g>
+
+  <!-- Ticket VIP (Mis en avant) -->
+  <g transform="translate(100, 510)">
+    <rect width="600" height="205" rx="20" fill="#3D1A52" stroke="#FF007F" stroke-width="3"/>
+    <rect x="0" y="0" width="16" height="205" rx="8" fill="url(#ticketGradient)"/>
+    
+    <rect x="45" y="-14" width="130" height="28" rx="14" fill="#FF007F"/>
+    <text x="110" y="5" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle">LE PLUS POPULAIRE</text>
+
+    <text x="45" y="60" font-family="'Outfit', sans-serif" font-weight="800" font-size="26" fill="#FFFFFF">PASS VIP LOUNGE</text>
+    <text x="45" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#F0DCFF">• Accès coupe-file prioritaire sans attente</text>
+    <text x="45" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#F0DCFF">• Carré VIP réservé avec service dédié à table</text>
+    <text x="45" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#F0DCFF">• Bouteille de bienvenue &amp; mignardises traiteur</text>
+    <text x="45" y="185" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#F0DCFF">• Rencontre et photo exclusive avec les DJs</text>
+
+    <text x="560" y="95" font-family="'Outfit', sans-serif" font-weight="900" font-size="36" fill="#FF758C" text-anchor="end">15 000</text>
+    <text x="560" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#BFAACF" text-anchor="end">FCFA / pers.</text>
+  </g>
+
+  <!-- Bouton d'achat rapide -->
+  <g transform="translate(400, 780)">
+    <rect x="-240" y="0" width="480" height="65" rx="33" fill="url(#ticketGradient)"/>
+    <text x="0" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="20" fill="#FFFFFF" text-anchor="middle">Réserver via WhatsApp ou Mobile Money</text>
+  </g>
+
+  <text x="400" y="890" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="14" fill="#BFAACF" text-anchor="middle">Paiement 100% sécurisé • Confirmation immédiate par SMS / WhatsApp</text>
+</svg>

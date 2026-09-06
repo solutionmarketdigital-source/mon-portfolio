@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960">
+  <defs>
+    <linearGradient id="vidLolaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E85A37"/>
+      <stop offset="50%" stop-color="#FF758C"/>
+      <stop offset="100%" stop-color="#2D131C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond Vidéo Style Reel / TikTok -->
+  <rect width="540" height="960" fill="url(#vidLolaBg)"/>
+
+  <!-- Cercles bokeh lumière -->
+  <circle cx="120" cy="200" r="140" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="450" cy="700" r="160" fill="#FFA588" opacity="0.2"/>
+
+  <!-- Mannequin / Produit silhouette stylisée -->
+  <g transform="translate(270, 430)">
+    <rect x="-80" y="-120" width="160" height="220" rx="20" fill="#FFFFFF" opacity="0.9"/>
+    <path d="M-30 -120 Q 0 -190 30 -120" fill="none" stroke="#E85A37" stroke-width="8" stroke-linecap="round"/>
+    <text x="0" y="-20" font-family="'Outfit', sans-serif" font-weight="900" font-size="24" fill="#1F1B18" text-anchor="middle">LOLA</text>
+    <text x="0" y="10" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#E85A37" text-anchor="middle">UNBOXING</text>
+    <text x="0" y="50" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" fill="#E85A37" text-anchor="middle">REEL #1</text>
+  </g>
+
+  <!-- Interface Reel (côté droit : like, com, share) -->
+  <g transform="translate(480, 520)">
+    <!-- Like -->
+    <circle cx="0" cy="0" r="22" fill="rgba(0,0,0,0.4)"/>
+    <path d="M0 8 L-6 2 C-9 -1 -9 -6 -5 -9 C-2 -11 0 -8 0 -8 C0 -8 2 -11 5 -9 C9 -6 9 -1 6 2 Z" fill="#FF4757" transform="scale(1.4) translate(-0, 2)"/>
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">14.2K</text>
+
+    <!-- Comment -->
+    <circle cx="0" cy="75" r="22" fill="rgba(0,0,0,0.4)"/>
+    <circle cx="0" cy="75" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="0" y="107" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">842</text>
+
+    <!-- Share -->
+    <circle cx="0" cy="150" r="22" fill="rgba(0,0,0,0.4)"/>
+    <path d="M-6 150 L6 142 L6 158 Z" fill="#FFFFFF"/>
+    <text x="0" y="182" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF" text-anchor="middle">2.1K</text>
+  </g>
+
+  <!-- Bas du Reel : Description et Son -->
+  <g transform="translate(30, 810)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#FFFFFF">@lola_shop_officiel</text>
+    <text x="0" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="14" fill="#FFFFFF">Unboxing exclusif de la capsule été ✨ Quel est votre coup de cœur ?</text>
+    <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13" fill="#FFA588">🎵 Son original — Lola Shop x Dan B.</text>
+  </g>
+</svg>

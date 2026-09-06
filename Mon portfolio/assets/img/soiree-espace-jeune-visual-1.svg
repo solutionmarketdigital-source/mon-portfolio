@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="partyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F0C20"/>
+      <stop offset="50%" stop-color="#1A0B2E"/>
+      <stop offset="100%" stop-color="#0D0614"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#7928CA"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#partyBg)"/>
+
+  <!-- Faisceaux de projecteurs néon -->
+  <polygon points="100,0 250,0 50,1000 -50,1000" fill="url(#neonPink)" opacity="0.25"/>
+  <polygon points="700,0 550,0 750,1000 850,1000" fill="url(#neonCyan)" opacity="0.25"/>
+
+  <!-- Éléments festival disco / DJ -->
+  <circle cx="400" cy="380" r="180" fill="url(#neonPink)" opacity="0.2" filter="url(#neonGlow)"/>
+
+  <!-- Badge Date & Lieu -->
+  <g transform="translate(400, 100)">
+    <rect x="-160" y="-20" width="320" height="42" rx="21" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+    <text x="0" y="8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" fill="#00F2FE" text-anchor="middle" letter-spacing="3">SAMEDI 20 DÉCEMBRE • 20H00</text>
+  </g>
+
+  <!-- Titre Principal Explosif -->
+  <text x="400" y="220" font-family="'Outfit', sans-serif" font-weight="900" font-size="30" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">LE GRAND RENDEZ-VOUS</text>
+  <text x="400" y="300" font-family="'Outfit', sans-serif" font-weight="900" font-size="64" fill="url(#neonCyan)" text-anchor="middle" filter="url(#neonGlow)">SOIRÉE</text>
+  <text x="400" y="380" font-family="'Outfit', sans-serif" font-weight="900" font-size="64" fill="url(#neonPink)" text-anchor="middle" filter="url(#neonGlow)">ESPACE JEUNE</text>
+
+  <!-- Platine DJ / Ondes sonores stylisées -->
+  <g transform="translate(400, 520)">
+    <circle cx="0" cy="0" r="110" fill="#18132B" stroke="#00F2FE" stroke-width="4"/>
+    <circle cx="0" cy="0" r="75" fill="#251842" stroke="#FF007F" stroke-width="3"/>
+    <circle cx="0" cy="0" r="30" fill="#FFFFFF"/>
+    <!-- Vynil grooves -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Line Up & Artistes -->
+  <g transform="translate(400, 710)">
+    <text x="0" y="0" font-family="'Outfit', sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" text-anchor="middle">DJ SETS • AFROBEATS • AMAPIANO • DANCEFLOOR</text>
+    <text x="0" y="35" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#D1C7BF" text-anchor="middle">Avec DJ Flex, DJ King &amp; Invités Spéciaux</text>
+  </g>
+
+  <!-- Billetterie & Bouton -->
+  <g transform="translate(400, 830)">
+    <rect x="-180" y="0" width="360" height="65" rx="33" fill="url(#neonPink)" filter="url(#neonGlow)"/>
+    <text x="0" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" text-anchor="middle">PRENDRE MON PASS VIP</text>
+  </g>
+
+  <text x="400" y="935" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="14" fill="rgba(255,255,255,0.6)" text-anchor="middle">Espace Jeunes Cotonou • Consommations incluses pour les 100 premiers</text>
+</svg>

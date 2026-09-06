@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="lolaBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5"/>
+      <stop offset="50%" stop-color="#FFE4E1"/>
+      <stop offset="100%" stop-color="#FFD1DC"/>
+    </linearGradient>
+    <linearGradient id="lolaAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E85A37"/>
+      <stop offset="100%" stop-color="#FF758C"/>
+    </linearGradient>
+    <filter id="shadowLola" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-opacity="0.15" flood-color="#E85A37"/>
+    </filter>
+  </defs>
+
+  <!-- Fond pastel chic -->
+  <rect width="800" height="1000" fill="url(#lolaBg1)"/>
+
+  <!-- Éléments géométriques modernes -->
+  <circle cx="700" cy="150" r="180" fill="#FFB6C1" opacity="0.4"/>
+  <circle cx="100" cy="850" r="220" fill="#E85A37" opacity="0.1"/>
+
+  <!-- Cadre Instagram / E-commerce -->
+  <rect x="50" y="50" width="700" height="900" rx="24" fill="#FFFFFF" filter="url(#shadowLola)"/>
+
+  <!-- Header Card Lola Shop -->
+  <rect x="50" y="50" width="700" height="90" rx="24" fill="#FFFFFF"/>
+  <circle cx="100" cy="95" r="24" fill="url(#lolaAccent)"/>
+  <text x="100" y="103" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" text-anchor="middle">LS</text>
+  <text x="140" y="92" font-family="'Outfit', sans-serif" font-weight="800" font-size="20" fill="#1F1B18">LOLA SHOP</text>
+  <text x="140" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13" fill="#E85A37">Boutique Mode &amp; Accessoires</text>
+
+  <!-- Badge Sponsorisé / Post Pro -->
+  <rect x="610" y="78" width="105" height="34" rx="17" fill="#FDEEE9"/>
+  <text x="662" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#E85A37" text-anchor="middle">NOUVEAU</text>
+
+  <!-- Visuel Central Shooting Mode -->
+  <rect x="80" y="160" width="640" height="520" rx="20" fill="#FFF5F7"/>
+  
+  <!-- Silhouette Stylisée Shopping & Sac Luxe -->
+  <g transform="translate(400, 420)">
+    <!-- Sac de shopping chic -->
+    <rect x="-110" y="-120" width="220" height="240" rx="16" fill="url(#lolaAccent)"/>
+    <path d="M-50 -120 Q 0 -210 50 -120" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+    <text x="0" y="20" font-family="'Outfit', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" text-anchor="middle">LOLA</text>
+    <text x="0" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#FFEFEA" letter-spacing="4" text-anchor="middle">COLLECTION</text>
+
+    <!-- Étoiles brillantes autour -->
+    <circle cx="150" cy="-80" r="8" fill="#F5A623"/>
+    <circle cx="-140" cy="60" r="6" fill="#F5A623"/>
+  </g>
+
+  <!-- Badge réduction accrocheur -->
+  <g transform="translate(560, 200) rotate(12)">
+    <circle cx="0" cy="0" r="55" fill="#1F1B18"/>
+    <text x="0" y="-5" font-family="'Outfit', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle">-30%</text>
+    <text x="0" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#E85A37" text-anchor="middle">CE WEEK-END</text>
+  </g>
+
+  <!-- Titre & Copywriting Social Media -->
+  <text x="80" y="730" font-family="'Outfit', sans-serif" font-weight="900" font-size="32" fill="#1F1B18">Élégance &amp; Confort Quotidien</text>
+  <text x="80" y="765" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="18" fill="#645C55">Découvrez la sélection exclusive disponible en livraison rapide.</text>
+
+  <!-- Call to action button -->
+  <rect x="80" y="805" width="280" height="60" rx="30" fill="url(#lolaAccent)"/>
+  <text x="220" y="842" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" fill="#FFFFFF" text-anchor="middle">Commander sur WhatsApp</text>
+
+  <text x="680" y="842" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15" fill="#E85A37" text-anchor="end">#LolaStyle #Mode2024</text>
+</svg>

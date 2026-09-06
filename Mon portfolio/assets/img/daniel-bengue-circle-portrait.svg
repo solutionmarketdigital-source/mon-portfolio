@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="circBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2D3"/>
+      <stop offset="100%" stop-color="#00B894"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8D5524"/>
+      <stop offset="100%" stop-color="#5C3317"/>
+    </linearGradient>
+    <linearGradient id="scarfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9A2617"/>
+      <stop offset="50%" stop-color="#E85A37"/>
+      <stop offset="100%" stop-color="#2D3436"/>
+    </linearGradient>
+    <filter id="circShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-opacity="0.18" flood-color="#000000"/>
+    </filter>
+  </defs>
+
+  <!-- Grand Cercle Portrait avec ombre portée comme sur le template -->
+  <circle cx="300" cy="300" r="280" fill="url(#circBg)" stroke="#FFFFFF" stroke-width="12" filter="url(#circShadow)"/>
+
+  <!-- Halo lumineux intérieur -->
+  <circle cx="300" cy="300" r="260" fill="#00D2D3" opacity="0.4"/>
+
+  <!-- Buste & Vêtements (Veste moderne & écharpe chinée chaleureuse comme le modèle de référence) -->
+  <g id="body">
+    <!-- Épaules -->
+    <path d="M90 600 C110 460 210 390 300 390 C390 390 490 460 510 600 Z" fill="#2D3436"/>
+
+    <!-- Écharpe texturée géométrique chaleureuse (clin d'œil direct au modèle) -->
+    <path d="M160 530 C180 430 250 410 300 410 C350 410 420 430 440 530 C390 570 300 580 160 530 Z" fill="url(#scarfGrad)"/>
+    <path d="M190 510 L230 440 L270 520 L310 440 L350 520 L390 440 L410 510" fill="none" stroke="#FDCB6E" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- Cou -->
+  <rect x="265" y="320" width="70" height="90" rx="20" fill="url(#skin)"/>
+
+  <!-- Visage de Daniel Bengue -->
+  <ellipse cx="300" cy="270" rx="105" ry="125" fill="url(#skin)"/>
+
+  <!-- Oreilles -->
+  <ellipse cx="195" cy="280" rx="18" ry="26" fill="#5C3317"/>
+  <ellipse cx="405" cy="280" rx="18" ry="26" fill="#5C3317"/>
+
+  <!-- Cheveux dégradés soignés -->
+  <path d="M200 240 Q 300 130 400 240 Q 405 180 300 150 Q 195 180 200 240 Z" fill="#181514"/>
+
+  <!-- Lunettes modernes branchées -->
+  <rect x="225" y="240" width="65" height="46" rx="12" fill="none" stroke="#2D3436" stroke-width="6"/>
+  <rect x="310" y="240" width="65" height="46" rx="12" fill="none" stroke="#2D3436" stroke-width="6"/>
+  <line x1="290" y1="258" x2="310" y2="258" stroke="#2D3436" stroke-width="6"/>
+  <line x1="205" y1="258" x2="225" y2="258" stroke="#2D3436" stroke-width="5"/>
+  <line x1="375" y1="258" x2="395" y2="258" stroke="#2D3436" stroke-width="5"/>
+
+  <!-- Yeux souriants & éclatants -->
+  <ellipse cx="258" cy="262" rx="12" ry="8" fill="#FFFFFF"/>
+  <circle cx="258" cy="262" r="5.5" fill="#181514"/>
+  <circle cx="260" cy="260" r="2" fill="#FFFFFF"/>
+
+  <ellipse cx="342" cy="262" rx="12" ry="8" fill="#FFFFFF"/>
+  <circle cx="342" cy="262" r="5.5" fill="#181514"/>
+  <circle cx="344" cy="260" r="2" fill="#FFFFFF"/>
+
+  <!-- Sourcils -->
+  <path d="M235 230 Q 260 220 280 230" stroke="#181514" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M320 230 Q 340 220 365 230" stroke="#181514" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Nez -->
+  <path d="M300 265 Q 304 290 296 300 Q 304 305 312 300" stroke="#4A260F" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Sourire chaleureux communicatif -->
+  <path d="M260 325 Q 300 365 340 325" fill="#FFFFFF"/>
+  <path d="M255 323 Q 300 372 345 323" stroke="#3D1E0B" stroke-width="3.5" fill="none"/>
+
+  <!-- Barbe soignée -->
+  <path d="M265 350 Q 300 385 335 350 Q 325 390 300 395 Q 275 390 265 350 Z" fill="#181514" opacity="0.85"/>
+</svg>

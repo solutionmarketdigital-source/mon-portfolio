@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="senanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221510"/>
+      <stop offset="50%" stop-color="#1B100B"/>
+      <stop offset="100%" stop-color="#0F0906"/>
+    </linearGradient>
+    <linearGradient id="goldFire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC837"/>
+      <stop offset="100%" stop-color="#FF8008"/>
+    </linearGradient>
+    <radialGradient id="plateGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF8008" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#senanBg)"/>
+
+  <!-- Cercles décoratifs épices -->
+  <circle cx="400" cy="480" r="320" fill="url(#plateGlow)"/>
+
+  <!-- Header Senan Délices -->
+  <g transform="translate(400, 110)">
+    <circle cx="0" cy="0" r="38" fill="url(#goldFire)"/>
+    <path d="M-15 5 C-15 -15 0 -22 0 -22 C0 -22 15 -15 15 5 C15 16 7 22 0 22 C-7 22 -15 16 -15 5 Z" fill="#221510"/>
+    <text x="0" y="65" font-family="'Outfit', sans-serif" font-weight="900" font-size="32" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">SÉNAN DÉLICES</text>
+    <text x="0" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#FFC837" text-anchor="middle" letter-spacing="4">GASTRONOMIE &amp; TRAITEUR GOURMAND</text>
+  </g>
+
+  <!-- Illustration Assiette Signature Stylisée -->
+  <g transform="translate(400, 480)">
+    <!-- Plat / Assiette design noire & dorée -->
+    <circle cx="0" cy="0" r="230" fill="#291E19" stroke="#FFC837" stroke-width="5"/>
+    <circle cx="0" cy="0" r="210" fill="#1C1410"/>
+    
+    <!-- Présentation gourmande -->
+    <!-- Poulet braisé doré -->
+    <ellipse cx="-40" cy="-30" rx="95" ry="70" fill="#B25900" transform="rotate(-15)"/>
+    <ellipse cx="-40" cy="-30" rx="85" ry="60" fill="url(#goldFire)" transform="rotate(-15)" opacity="0.85"/>
+    <!-- Feuilles d'épices / persil -->
+    <circle cx="-30" cy="-40" r="8" fill="#10B981"/>
+    <circle cx="-10" cy="-20" r="6" fill="#10B981"/>
+    <circle cx="-50" cy="-15" r="7" fill="#10B981"/>
+
+    <!-- Alloco / Bananes plantains dorées -->
+    <ellipse cx="60" cy="40" rx="40" ry="18" fill="#FFB703" transform="rotate(35)"/>
+    <ellipse cx="90" cy="15" rx="38" ry="16" fill="#FB8500" transform="rotate(20)"/>
+    <ellipse cx="75" cy="70" rx="42" ry="18" fill="#FFB703" transform="rotate(40)"/>
+    <ellipse cx="40" cy="85" rx="35" ry="16" fill="#FB8500" transform="rotate(15)"/>
+
+    <!-- Ramequin sauce pimentée signature -->
+    <circle cx="-60" cy="80" r="36" fill="#FFFFFF"/>
+    <circle cx="-60" cy="80" r="30" fill="#D62828"/>
+  </g>
+
+  <!-- Bandeau Offre Événementielle & Box -->
+  <g transform="translate(400, 770)">
+    <rect x="-340" y="0" width="680" height="95" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,200,55,0.3)" stroke-width="1.5"/>
+    <text x="-300" y="42" font-family="'Outfit', sans-serif" font-weight="800" font-size="24" fill="#FFFFFF">Buffets d'entreprise &amp; Événements privés</text>
+    <text x="-300" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="15" fill="#D1C7BF">Des formules sur-mesure préparées avec passion pour vos invités.</text>
+    <circle cx="280" cy="48" r="24" fill="url(#goldFire)"/>
+    <path d="M273 48 L279 54 L291 42" fill="none" stroke="#221510" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Footer CTA -->
+  <rect x="250" y="895" width="300" height="60" rx="30" fill="url(#goldFire)"/>
+  <text x="400" y="933" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" fill="#221510" text-anchor="middle">Réserver votre formule</text>
+</svg>

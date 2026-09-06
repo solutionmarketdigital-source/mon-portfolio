@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="progBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1E2E"/>
+      <stop offset="100%" stop-color="#07131F"/>
+    </linearGradient>
+    <linearGradient id="progGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD000"/>
+      <stop offset="100%" stop-color="#FF9000"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#progBg)"/>
+
+  <!-- Cadre -->
+  <rect x="40" y="40" width="720" height="920" rx="24" fill="#0A1826" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Badge En-tête -->
+  <g transform="translate(80, 80)">
+    <rect width="200" height="38" rx="19" fill="rgba(0,212,255,0.15)"/>
+    <text x="100" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#00D4FF" text-anchor="middle">PROGRAMME OFFICIEL</text>
+  </g>
+
+  <text x="80" y="170" font-family="'Outfit', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF">LES TEMPS FORTS DE LA JOURNÉE</text>
+  <text x="80" y="205" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#9FBAD4">Salon de l'Entrepreneuriat C3E / UAC — Campus d'Abomey-Calavi</text>
+
+  <!-- Planning des sessions -->
+  <!-- Session 1 -->
+  <g transform="translate(80, 250)">
+    <rect width="640" height="130" rx="16" fill="#112436" stroke="rgba(255,208,0,0.3)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="12" height="130" rx="6" fill="url(#progGold)"/>
+    <text x="35" y="42" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" fill="url(#progGold)">09H00 - 10H30</text>
+    <text x="35" y="75" font-family="'Outfit', sans-serif" font-weight="800" font-size="19" fill="#FFFFFF">Cérémonie d'ouverture &amp; Keynote Magistrale</text>
+    <text x="35" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#9FBAD4">Avec les autorités académiques, partenaires institutionnels &amp; délégations</text>
+  </g>
+
+  <!-- Session 2 -->
+  <g transform="translate(80, 400)">
+    <rect width="640" height="145" rx="16" fill="#112436" stroke="rgba(0,212,255,0.2)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="12" height="145" rx="6" fill="#00D4FF"/>
+    <text x="35" y="42" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" fill="#00D4FF">11H00 - 12H45</text>
+    <text x="35" y="75" font-family="'Outfit', sans-serif" font-weight="800" font-size="19" fill="#FFFFFF">Panel 1 : Financer son projet quand on est jeune</text>
+    <text x="35" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#9FBAD4">Business Angels, Microfinance &amp; Fonds d'investissement pour startups</text>
+    <text x="35" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFD000">4 intervenants de référence</text>
+  </g>
+
+  <!-- Session 3 -->
+  <g transform="translate(80, 565)">
+    <rect width="640" height="145" rx="16" fill="#112436" stroke="rgba(0,212,255,0.2)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="12" height="145" rx="6" fill="#00D4FF"/>
+    <text x="35" y="42" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" fill="#00D4FF">14H30 - 16H15</text>
+    <text x="35" y="75" font-family="'Outfit', sans-serif" font-weight="800" font-size="19" fill="#FFFFFF">Panel 2 : Le Digital comme levier de croissance exponentielle</text>
+    <text x="35" y="102" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#9FBAD4">Social Media, E-commerce, IA et acquisition client en Afrique et à l'international</text>
+    <text x="35" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FFD000">Retours d'expérience concrets</text>
+  </g>
+
+  <!-- Session 4 -->
+  <g transform="translate(80, 730)">
+    <rect width="640" height="130" rx="16" fill="#112436" stroke="rgba(255,208,0,0.3)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="12" height="130" rx="6" fill="url(#progGold)"/>
+    <text x="35" y="42" font-family="'Outfit', sans-serif" font-weight="900" font-size="20" fill="url(#progGold)">16H45 - 18H30</text>
+    <text x="35" y="75" font-family="'Outfit', sans-serif" font-weight="800" font-size="19" fill="#FFFFFF">Grande Finale du Concours Pitch &amp; Remise des Prix</text>
+    <text x="35" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#9FBAD4">10 finalistes devant un jury prestigieux • Cocktail de clôture &amp; Networking</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="915" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" fill="#9FBAD4" text-anchor="middle">En direct sur les réseaux sociaux &amp; retransmission intégrale</text>
+</svg>
